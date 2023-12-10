@@ -61,12 +61,20 @@ I have two Dockerfiles because these two Dockerfiles serve different purposes - 
    ```docker run -p 5000:5000 <YOUR_IMAGE_NAME>```
 
 9. Configure Azure web App with Dockerhub
-10. Configure the Auto Scaling feature.
+
+     ![ Azure Deployed App](https://github.com/nogibjj/Individual_Project4_Ayush/blob/main/Images/Text_Summary_Azure.png)
+   
+11. Configure the Auto Scaling feature.
      ![ Scaling](https://github.com/nogibjj/Individual_Project4_Ayush/blob/main/Images/Scale%20Rule.png)
+    
      ![ Scaling](https://github.com/nogibjj/Individual_Project4_Ayush/blob/main/Images/ScaleRule2.png)
+    
      ![ Scaling](https://github.com/nogibjj/Individual_Project4_Ayush/blob/main/Images/Autoscale.png)
-      ![ Scaling](https://github.com/nogibjj/Individual_Project4_Ayush/blob/main/Images/Autoscale2.png)
-12. Once configured, the app is deployed and can be run and tested. 
+    
+     ![ Scaling](https://github.com/nogibjj/Individual_Project4_Ayush/blob/main/Images/Autoscale2.png)
+    
+12. Once configured, the app is deployed and can be run and tested.
+
 
 
 
