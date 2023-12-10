@@ -55,7 +55,7 @@ This will install use Python 3.10.8 as the base image, set the working directory
 I have two Dockerfiles because these two Dockerfiles serve different purposes - one for deploying the Flask application in a production-like environment, and the other for setting up a development environment. The Dockerfile is located in the main project directory and is used for deploying your Flask application. It includes instructions to set up a Python environment, copy your project files, install dependencies, and run your Flask app. The Dockerfile located in the .devcontainer folder is typically used in development environments, especially when working with Visual Studio Code or VS Code's Remote - Containers extension.
 
 7. Perform the following operations to push the docker image and run it. 
-   docker push <YOUR_USERNAME>/<YOUR_IMAGE_NAME>
+   ```docker push <YOUR_USERNAME>/<YOUR_IMAGE_NAME>```
    docker run -p 5000:5000 <YOUR_IMAGE_NAME>
 
 8. Configure Azure web App with Dockerhub
