@@ -7,4 +7,6 @@ Following are the major features of this project -
 4. Using Azure services for Auto Scaling Flask App.
 
 
+![Sample Image](https://github.com/nogibjj/Individual_Project4_Ayush/blob/main/Images/Text_Summarization_image.png)
+
 
