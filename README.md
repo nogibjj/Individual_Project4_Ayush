@@ -1,4 +1,4 @@
-# Individual Project #4: Auto Scaling Flask App Using Any Platform As a Service
+# Individual Project #4: Auto Scaling Flask App Using Azure
 [![CI/CD Pipeline](https://github.com/nogibjj/Individual_Project4_Ayush/actions/workflows/actions.yml/badge.svg)](https://github.com/nogibjj/Individual_Project4_Ayush/actions/workflows/actions.yml)
 
 ## INTRODUCTION
