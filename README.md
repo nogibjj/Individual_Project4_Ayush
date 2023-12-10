@@ -51,12 +51,12 @@ You can find the list of libraries in the requirements.txt file. You can install
 4. Install DockerHub application and login.
 5. Create a Dockerfile in the main project directory.
 This will install use Python 3.10.8 as the base image, set the working directory to /app and copy the local directory contents into the container, install required Python packages from a requirements.txt file, expose port 5000 to allow external access, set an environment variable NAME to myenv, and execute a Flask application (flask_app.py) with specified host and port configurations when the container starts.
-6. Then, you can build your dockerimage using the command: docker build -t <YOUR_DOCKER_USERNAME>/<YOUR_IMAGE_NAME>
+6. Then, you can build your dockerimage using the command: ```docker build -t <YOUR_DOCKER_USERNAME>/<YOUR_IMAGE_NAME>```
 I have two Dockerfiles because these two Dockerfiles serve different purposes - one for deploying the Flask application in a production-like environment, and the other for setting up a development environment. The Dockerfile is located in the main project directory and is used for deploying your Flask application. It includes instructions to set up a Python environment, copy your project files, install dependencies, and run your Flask app. The Dockerfile located in the .devcontainer folder is typically used in development environments, especially when working with Visual Studio Code or VS Code's Remote - Containers extension.
 
 7. Perform the following operations to push the docker image and run it. 
    ```docker push <YOUR_USERNAME>/<YOUR_IMAGE_NAME>```
-   docker run -p 5000:5000 <YOUR_IMAGE_NAME>
+   ```docker run -p 5000:5000 <YOUR_IMAGE_NAME>```
 
 8. Configure Azure web App with Dockerhub
 9. Configure the Auto Scaling feature. 
