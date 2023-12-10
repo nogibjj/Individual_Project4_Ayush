@@ -48,20 +48,25 @@ You can find the list of libraries in the requirements.txt file. You can install
 
 1. Create a DockerHub repository.
 2. Create a Microsoft Azure Web App (My Web Application name is TextSummarizationApp)
-3. While choosing how to publish your code, we have used 'Docker Container' to deploy the app as a Docker Image.
-4. Install DockerHub application and login.
-5. Create a Dockerfile in the main project directory.
+   ![ Web App](https://github.com/nogibjj/Individual_Project4_Ayush/blob/main/Images/Databricks_Runs.png)
+4. While choosing how to publish your code, we have used 'Docker Container' to deploy the app as a Docker Image.
+5. Install DockerHub application and login.
+6. Create a Dockerfile in the main project directory.
 This will install use Python 3.10.8 as the base image, set the working directory to /app and copy the local directory contents into the container, install required Python packages from a requirements.txt file, expose port 5000 to allow external access, set an environment variable NAME to myenv, and execute a Flask application (flask_app.py) with specified host and port configurations when the container starts.
-6. Then, you can build your dockerimage using the command: ```docker build -t <YOUR_DOCKER_USERNAME>/<YOUR_IMAGE_NAME>```
+7. Then, you can build your dockerimage using the command: ```docker build -t <YOUR_DOCKER_USERNAME>/<YOUR_IMAGE_NAME>```
 I have two Dockerfiles because these two Dockerfiles serve different purposes - one for deploying the Flask application in a production-like environment, and the other for setting up a development environment. The Dockerfile is located in the main project directory and is used for deploying your Flask application. It includes instructions to set up a Python environment, copy your project files, install dependencies, and run your Flask app. The Dockerfile located in the .devcontainer folder is typically used in development environments, especially when working with Visual Studio Code or VS Code's Remote - Containers extension.
 
-7. Perform the following operations to push the docker image and run it. 
+8. Perform the following operations to push the docker image and run it. 
    ```docker push <YOUR_USERNAME>/<YOUR_IMAGE_NAME>```
    ```docker run -p 5000:5000 <YOUR_IMAGE_NAME>```
 
-8. Configure Azure web App with Dockerhub
-9. Configure the Auto Scaling feature. 
-10. Once configured, the app is deployed and can be run and tested. 
+9. Configure Azure web App with Dockerhub
+10. Configure the Auto Scaling feature.
+     ![ Scaling](https://github.com/nogibjj/Individual_Project4_Ayush/blob/main/Images/Scale%20Rule.png)
+     ![ Scaling](https://github.com/nogibjj/Individual_Project4_Ayush/blob/main/Images/ScaleRule2.png)
+     ![ Scaling](https://github.com/nogibjj/Individual_Project4_Ayush/blob/main/Images/Autoscale.png)
+      ![ Scaling](https://github.com/nogibjj/Individual_Project4_Ayush/blob/main/Images/Autoscale2.png)
+12. Once configured, the app is deployed and can be run and tested. 
 
 
 
