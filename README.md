@@ -11,9 +11,9 @@ Following are the major features of this project -
 ## FLASK APP
 The flask app is a simple text summarization application that is aimed at giving a user a summary of the text that he inputs. It makes use of the huggingface text-summarization model for the same. 
 
-The link : [App] (https://textsummarizationapp.azurewebsites.net/)
+The link : [App](https://textsummarizationapp.azurewebsites.net/)
 
-Video Link : [Video] (https://www.youtube.com/watch?v=IxBH6lX_Al4)
+Video Link : [Video](https://www.youtube.com/watch?v=IxBH6lX_Al4)
 
 The following images represent the functioning of the text summarization app. 
 
