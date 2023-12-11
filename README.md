@@ -59,8 +59,10 @@ I have two Dockerfiles because these two Dockerfiles serve different purposes - 
 8. Perform the following operations to push the docker image and run it. 
    ```docker push <YOUR_USERNAME>/<YOUR_IMAGE_NAME>```
    ```docker run -p 5000:5000 <YOUR_IMAGE_NAME>```
+      ![ Scaling](https://github.com/nogibjj/Individual_Project4_Ayush/blob/main/Images/Docker%20Desktop%20Run.png)
+   
 
-9. Configure Azure web App with Dockerhub
+10. Configure Azure web App with Dockerhub
 
      ![ Azure Deployed App](https://github.com/nogibjj/Individual_Project4_Ayush/blob/main/Images/Text_Summary_Azure.png)
    
