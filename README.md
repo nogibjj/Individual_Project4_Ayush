@@ -11,7 +11,8 @@ Following are the major features of this project -
 ## FLASK APP
 The flask app is a simple text summarization application that is aimed at giving a user a summary of the text that he inputs. It makes use of the huggingface text-summarization model for the same. 
 
-The link : https://textsummarizationapp.azurewebsites.net/
+The link : [App] (https://textsummarizationapp.azurewebsites.net/)
+Video Link : [Video] (https://www.youtube.com/watch?v=IxBH6lX_Al4)
 
 The following images represent the functioning of the text summarization app. 
 
@@ -76,6 +77,27 @@ I have two Dockerfiles because these two Dockerfiles serve different purposes - 
      ![ Scaling](https://github.com/nogibjj/Individual_Project4_Ayush/blob/main/Images/Autoscale2.png)
     
 12. Once configured, the app is deployed and can be run and tested.
+
+### Setup
+A. Online: Visit the Link provided earlier and no additional steps are required.
+
+Note: The web app may not be available in case the Azure service is shut due to exhaustion of credits, please use the offline method mentioned below if the Web app is not available.
+
+B. Offline:
+
+1. Clone This repository to your local machine.
+
+2. perform a make install to install all the required packages and libraries
+
+3. enter the following command into the Terminal:
+
+`python app.py`
+
+5. click on the Links which are shown in the terminal
+
+6. When done using the app, press `CTRL+C` to quit the app
+
+
 
 
 
