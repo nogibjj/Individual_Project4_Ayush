@@ -14,4 +14,13 @@ uvicorn==0.18.3
 #datascience
 transformers
 tensorflow
-flask
+streamlit
+torch
+sentencepiece
+
+#others
+Flask==2.0.2
+gunicorn
+Werkzeug==2.2.2
+python-dotenv
+requests
