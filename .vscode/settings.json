@@ -1,8 +1,0 @@
-{
-    "appService.zipIgnorePattern": [
-        "node_modules{,/**}",
-        ".vscode{,/**}"
-    ],
-    "appService.defaultWebAppToDeploy": "/subscriptions/3de2931b-4b14-4e62-a457-5641b932a4b2/resourceGroups/Individual_Project4/providers/Microsoft.Web/sites/TextSummarization11",
-    "appService.deploySubpath": "."
-}
